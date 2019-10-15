@@ -8,5 +8,5 @@ def my_collect(collection)
     array << yield(collection[count])
     count += 1
   end
-  
+  array
 end
