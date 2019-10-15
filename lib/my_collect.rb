@@ -6,7 +6,7 @@ def my_collect(collection)
   
   while count < collection.length do
     array << yield(collection[count])
-    count +1
+    count += 1
   end
   
 end
